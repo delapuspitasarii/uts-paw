@@ -9,6 +9,7 @@ export default function Beranda() {
   return (
     <section>
       <h1>📚Rak Buku Pribadiku - Delaaa</h1>
+      <h4>Selamat Datang Delaa!! </h4>
       <p>Tema: {mahasiswa.tema}</p>
       {loading ? (
         <p>Memuat ringkasan...</p>
