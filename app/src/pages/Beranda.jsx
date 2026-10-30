@@ -9,7 +9,7 @@ export default function Beranda() {
   return (
     <section>
       <h1>Halo Dela, Selamat Datang!! </h1>
-      <p>Tema: {mahasiswa.tema}</p>
+      <p><h4>Tema: {mahasiswa.tema}</h4></p>
       {loading ? (
         <p>Memuat ringkasan...</p>
       ) : (
