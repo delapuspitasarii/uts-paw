@@ -92,7 +92,7 @@ Repository GitHub: https://github.com/delapuspitasarii/uts-paw
 ![Tentang](docs/tentang.png)
 
 ### Rubrik Penilaian
-![Bukti Rubrik Penilaian](docs/Bukti Rubrik Penilaian.png)
+![Bukti Rubrik Penilaian](docs/bukti-rubrik.png)
 
 ## Fitur
 1. **Beranda:** Menampilkan informasi salam pembuka, tema aplikasi, dan ringkasan total koleksi buku yang tersimpan.
