@@ -62,7 +62,7 @@ Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi me
 
 Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Kerangka berikut boleh dipakai:
 
-```markdown
+
 # Aplikasi Rak Buku Akuu (Delaaa)
 Aplikasi berbasis web *Single Page Application* (SPA) untuk membantu pengelolaan, pencatatan, dan pemantauan koleksi buku pribadi berdasarkan kategori, penulis, tahun terbit, serta status pembacaan.
 
@@ -152,4 +152,3 @@ Perubahan data (penambahan atau penghapusan buku) disimpan secara persisten pada
    - Pemisahan komponen antarmuka di folder `src/components/` (`BadgeStatus.jsx`, `BukuFilter.jsx`, `KartuItem.jsx`, `KotakPencarian.jsx`, dan `Layout.jsx`).
 6. **CSS dan Semantik:**
    - Desain antarmuka responsif (Flexbox & CSS Grid) bertema *Warm Beige & Espresso Brown* dengan struktur HTML5 semantik (`header`, `nav`, `main`, `footer`, `article`).
-```
