@@ -1,82 +1,114 @@
 [
   {
     "id": "b01",
-    "judul": "Struktur Data Linier",
+    "judul": "Teori Dasar Analisis dan Perancangan Sistem Informasi",
     "kategori": "Teknologi",
-    "penulis": "Ahmad Subagja",
+    "penulis": "Renny Puspita Sari S.T., M.T",
     "tahunTerbit": "2021",
     "status": "dimiliki"
   },
   {
     "id": "b02",
-    "judul": "Filosofi Teras Stoikism",
-    "kategori": "Sejarah",
-    "penulis": "Henry Manampiring",
-    "tahunTerbit": "2019",
+    "judul": "Dompet Ayah Sepatu Ibu",
+    "kategori": "Novel",
+    "penulis": "J. S. Khairen",
+    "tahunTerbit": "2023",
     "status": "sedang dibaca"
   },
   {
     "id": "b03",
-    "judul": "Dune Arrakis Chronicles",
-    "kategori": "Novel",
-    "penulis": "Frank Herbert",
-    "tahunTerbit": "1965",
+    "judul": "Dasar Backend Web Development dengan Php dan Laravel",
+    "kategori": "Teknologi",
+    "penulis": "Syahru Rahmayuda, S.Kom., M.Kom",
+    "tahunTerbit": "2026",
     "status": "ingin dibeli"
   },
   {
     "id": "b04",
-    "judul": "Clean Architecture Blueprint",
+    "judul": "Excel Survival Kit: Panduan Praktis Menguasai Excel untuk Dunia Kerja",
     "kategori": "Teknologi",
-    "penulis": "Robert C Martin",
-    "tahunTerbit": "2017",
+    "penulis": "Julian S. Putra",
+    "tahunTerbit": "2026",
     "status": "dimiliki"
   },
   {
     "id": "b05",
-    "judul": "Petualangan Tintin Tibet",
-    "kategori": "Komik",
-    "penulis": "Herge",
-    "tahunTerbit": "1960",
+    "judul": "Laut Bercerita",
+    "kategori": "Novel",
+    "penulis": "Leila S. Chudori",
+    "tahunTerbit": "2017",
     "status": "dimiliki"
   },
   {
     "id": "b06",
-    "judul": "Sejarah Singkat Nusantara",
+    "judul": "Bumi Manusia",
     "kategori": "Sejarah",
-    "penulis": "Sartono Kartodirdjo",
-    "tahunTerbit": "2014",
+    "penulis": "Pramoedya Ananta Toer",
+    "tahunTerbit": "1980",
     "status": "sedang dibaca"
   },
   {
     "id": "b07",
-    "judul": "Sistem Operasi Modern",
-    "kategori": "Teknologi",
-    "penulis": "Andrew Tanenbaum",
-    "tahunTerbit": "2015",
+    "judul": "Spy x Family 01",
+    "kategori": "Komik",
+    "penulis": "Endo Tatsuya",
+    "tahunTerbit": "2020",
     "status": "ingin dibeli"
   },
   {
     "id": "b08",
-    "judul": "Bumi Manusia Pramoedya",
+    "judul": "Seporsi Mie Ayam Sebelum Mati",
     "kategori": "Novel",
-    "penulis": "Pramoedya Ananta Toer",
-    "tahunTerbit": "1980",
+    "penulis": "Brian Khrisna",
+    "tahunTerbit": "2025",
     "status": "dimiliki"
   },
   {
     "id": "b09",
-    "judul": "Detektif Conan Volume 100",
+    "judul": "Doraemon 7",
     "kategori": "Komik",
-    "penulis": "Gosho Aoyama",
-    "tahunTerbit": "2021",
-    "status": "sedang dibaca"
+    "penulis": "Fujiko F. Fujio",
+    "tahunTerbit": "2011",
+    "status": "dimiliki"
   },
   {
     "id": "b10",
-    "judul": "Peradaban Dunia Kuno",
+    "judul": "Madilog Tan Malaka: Materialisme Dialektika & Logika",
     "kategori": "Sejarah",
-    "penulis": "Jared Diamond",
-    "tahunTerbit": "2005",
+    "penulis": "Tan Malaka",
+    "tahunTerbit": "2014",
+    "status": "sedang dibaca"
+  },
+  {
+    "id": "b11",
+    "judul": "Haikyu!!: Fly High! Volleyball! 11",
+    "kategori": "Komik",
+    "penulis": "Haruichi Furudate",
+    "tahunTerbit": "2018",
+    "status": "sedang dibaca"
+  },
+  {
+    "id": "b12",
+    "judul": "Kaiju No. 8 Vol. 15",
+    "kategori": "Komik",
+    "penulis": "Naoya Matsumoto",
+    "tahunTerbit": "2026",
+    "status": "dimiliki"
+  },
+  {
+    "id": "b13",
+    "judul": "Dr. Stone 21",
+    "kategori": "Komik",
+    "penulis": "Riichiro Inagaki",
+    "tahunTerbit": "2026",
+    "status": "ingin dibeli"
+  },
+  {
+    "id": "b14",
+    "judul": "Melodylan",
+    "kategori": "Novel",
+    "penulis": "Asriaci",
+    "tahunTerbit": "2017",
     "status": "ingin dibeli"
   }
 ]
