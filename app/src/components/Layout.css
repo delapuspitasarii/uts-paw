@@ -1,0 +1,23 @@
+#header-utama {
+  background-color: #ffffff;
+}
+
+#konten-utama {
+  min-height: 80vh;
+}
+
+#footer-utama {
+  background-color: #f8f9fa;
+}
+
+.menu a:hover {
+  color: #0366d6;
+}
+
+.alat-koleksi input:focus {
+  outline: 2px solid #0366d6;
+}
+
+input::placeholder {
+  color: #888888;
+}
