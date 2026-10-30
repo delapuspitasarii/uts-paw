@@ -1,10 +1,82 @@
 [
   {
-    "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "id": "b01",
+    "judul": "Struktur Data Linier",
+    "kategori": "Teknologi",
+    "penulis": "Ahmad Subagja",
+    "tahunTerbit": "2021",
+    "status": "dimiliki"
+  },
+  {
+    "id": "b02",
+    "judul": "Filosofi Teras Stoikism",
+    "kategori": "Sejarah",
+    "penulis": "Henry Manampiring",
+    "tahunTerbit": "2019",
+    "status": "sedang dibaca"
+  },
+  {
+    "id": "b03",
+    "judul": "Dune Arrakis Chronicles",
+    "kategori": "Novel",
+    "penulis": "Frank Herbert",
+    "tahunTerbit": "1965",
+    "status": "ingin dibeli"
+  },
+  {
+    "id": "b04",
+    "judul": "Clean Architecture Blueprint",
+    "kategori": "Teknologi",
+    "penulis": "Robert C Martin",
+    "tahunTerbit": "2017",
+    "status": "dimiliki"
+  },
+  {
+    "id": "b05",
+    "judul": "Petualangan Tintin Tibet",
+    "kategori": "Komik",
+    "penulis": "Herge",
+    "tahunTerbit": "1960",
+    "status": "dimiliki"
+  },
+  {
+    "id": "b06",
+    "judul": "Sejarah Singkat Nusantara",
+    "kategori": "Sejarah",
+    "penulis": "Sartono Kartodirdjo",
+    "tahunTerbit": "2014",
+    "status": "sedang dibaca"
+  },
+  {
+    "id": "b07",
+    "judul": "Sistem Operasi Modern",
+    "kategori": "Teknologi",
+    "penulis": "Andrew Tanenbaum",
+    "tahunTerbit": "2015",
+    "status": "ingin dibeli"
+  },
+  {
+    "id": "b08",
+    "judul": "Bumi Manusia Pramoedya",
+    "kategori": "Novel",
+    "penulis": "Pramoedya Ananta Toer",
+    "tahunTerbit": "1980",
+    "status": "dimiliki"
+  },
+  {
+    "id": "b09",
+    "judul": "Detektif Conan Volume 100",
+    "kategori": "Komik",
+    "penulis": "Gosho Aoyama",
+    "tahunTerbit": "2021",
+    "status": "sedang dibaca"
+  },
+  {
+    "id": "b10",
+    "judul": "Peradaban Dunia Kuno",
+    "kategori": "Sejarah",
+    "penulis": "Jared Diamond",
+    "tahunTerbit": "2005",
+    "status": "ingin dibeli"
   }
 ]
