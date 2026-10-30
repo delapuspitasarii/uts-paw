@@ -8,8 +8,7 @@ export default function Beranda() {
 
   return (
     <section>
-      <h1>📚Rak Buku Pribadiku - Delaaa</h1>
-      <h4>Selamat Datang Delaa!! </h4>
+      <h1>Halo Dela, Selamat Datang!! </h1>
       <p>Tema: {mahasiswa.tema}</p>
       {loading ? (
         <p>Memuat ringkasan...</p>
