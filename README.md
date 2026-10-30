@@ -77,22 +77,22 @@ Repository GitHub: https://github.com/delapuspitasarii/uts-paw
 ## Tangkapan Layar
 
 ### Beranda
-![Beranda](docs/beranda.png)
+![Beranda](https://raw.githubusercontent.com/delapuspitasarii/uts-paw/main/docs/beranda.png)
 
 ### Koleksi Buku
-![Koleksi Buku](docs/koleksi.png)
+![Koleksi Buku](https://raw.githubusercontent.com/delapuspitasarii/uts-paw/main/docs/koleksi.png)
 
 ### Tambah Buku
-![Tambah Buku](docs/tambah.png)
+![Tambah Buku](https://raw.githubusercontent.com/delapuspitasarii/uts-paw/main/docs/tambah.png)
 
 ### Statistik
-![Statistik](docs/statistik.png)
+![Statistik](https://raw.githubusercontent.com/delapuspitasarii/uts-paw/main/docs/statistik.png)
 
 ### Tentang
-![Tentang](docs/tentang.png)
+![Tentang](https://raw.githubusercontent.com/delapuspitasarii/uts-paw/main/docs/tentang.png)
 
 ### Rubrik Penilaian
-![Bukti Rubrik Penilaian](docs/bukti-rubrik.png)
+![Bukti Rubrik Penilaian](https://raw.githubusercontent.com/delapuspitasarii/uts-paw/main/docs/Bukti%20Rubrik%20Penilaian.png)
 
 ## Fitur
 1. **Beranda:** Menampilkan informasi salam pembuka, tema aplikasi, dan ringkasan total koleksi buku yang tersimpan.
