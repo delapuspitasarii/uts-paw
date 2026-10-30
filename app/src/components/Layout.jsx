@@ -1,30 +1,34 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom'; 
-export default function Header() {
-  return (
-    <header id="header-utama">
-      <div className="brand-container">
-        <span className="brand-icon">📖</span>
-        <h1 className="teks-header-putih">Rak Buku Akuuu ( Delaaa)</h1>
-      </div>
+import { NavLink, Outlet } from 'react-router-dom'
+import './Layout.css'
 
-      <nav className="nav-menu">
-        <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')} end>
-          Beranda
-        </NavLink>
-        <NavLink to="/koleksi" className={({ isActive }) => (isActive ? 'active' : '')}>
-          Koleksi
-        </NavLink>
-        <NavLink to="/tambah" className={({ isActive }) => (isActive ? 'active' : '')}>
-          Tambah
-        </NavLink>
-        <NavLink to="/statistik" className={({ isActive }) => (isActive ? 'active' : '')}>
-          Statistik
-        </NavLink>
-        <NavLink to="/tentang" className={({ isActive }) => (isActive ? 'active' : '')}>
-          Tentang
-        </NavLink>
-      </nav>
-    </header>
-  );
+const MENU_LIST = [
+  { ke: '/', label: 'Beranda' },
+  { ke: '/koleksi', label: 'Koleksi' },
+  { ke: '/tambah', label: 'Tambah' },
+  { ke: '/statistik', label: 'Statistik' },
+  { ke: '/tentang', label: 'Tentang' },
+]
+
+export default function Layout() {
+  return (
+    <div className="kerangka">
+      <header id="header-utama" className="kepala">
+        <strong><h1>📚Rak Buku Pribadiku - Delaaa</h1> Dela Puspita Sari (123140080) </strong>
+        <nav className="menu">
+          {MENU_LIST.map(({ ke, label }) => (
+            <NavLink key={ke} to={ke} end={ke === '/'}>
+              {label}
+            </NavLink>
+          ))}
+        </nav>
+      </header>
+      <main id="konten-utama" className="isi">
+        <Outlet />
+      </main>
+      <footer id="footer-utama" className="kaki">
+        Ujian Tengah Semester - Dela Puspita Sari (123140080)
+      </footer>
+    </div>
+  )
+
 }
