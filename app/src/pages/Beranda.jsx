@@ -1,4 +1,3 @@
-// src/pages/Beranda.jsx
 import { Link } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import mahasiswa from '../../mahasiswa.json'
@@ -9,7 +8,7 @@ export default function Beranda() {
 
   return (
     <section>
-      <h1>Rak Buku Pribadi</h1>
+      <h1>📚Rak Buku Pribadiku - Delaaa</h1>
       <p>Tema: {mahasiswa.tema}</p>
       {loading ? (
         <p>Memuat ringkasan...</p>
