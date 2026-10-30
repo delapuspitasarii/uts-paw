@@ -8,17 +8,17 @@ export default function Tentang() {
     <section>
       <h1>Tentang</h1>
       <dl>
-        <dt>Nama</dt>
+        <dt><h3>Nama :</h3></dt>
         <dd>{nama}</dd>
-        <dt>NIM</dt>
+        <dt><h3>NIM :</h3></dt>
         <dd>{nim}</dd>
-        <dt>Kelas</dt>
+        <dt><h3>Kelas :</h3></dt>
         <dd>{kelas}</dd>
-        <dt>Tema</dt>
+        <dt><h3>Tema :</h3></dt>
         <dd>{tema}</dd>
       </dl>
       <p>
-        Kode sumber: <a href={REPO} target="_blank" rel="noreferrer">{REPO}</a>
+       <h3>Kode Sumber :</h3><a href={REPO} target="_blank" rel="noreferrer">{REPO}</a>
       </p>
     </section>
   )
