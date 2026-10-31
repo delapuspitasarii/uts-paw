@@ -1,0 +1,128 @@
+.beranda-wrapper {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero-banner {
+  background-color: #f5ebe0;
+  border: 1px solid #e3d5ca;
+  border-radius: 16px;
+  padding: 32px 24px;
+  text-align: center;
+  color: #3d2314;
+  box-shadow: 0 4px 12px rgba(61, 35, 20, 0.03);
+}
+
+.hero-badge {
+  font-size: 2.4rem;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.hero-banner h2 {
+  font-size: 1.8rem;
+  margin: 0 0 10px 0;
+  color: #2b170c;
+  font-weight: 700;
+}
+
+.hero-banner p {
+  margin: 0 auto;
+  color: #5a3e2b;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  max-width: 620px;
+}
+
+.grid-statistik {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.kartu-stat {
+  background: #ffffff;
+  border: 1px solid #e8dec8;
+  border-radius: 14px;
+  padding: 22px 16px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(61, 35, 20, 0.04);
+}
+
+.angka-stat {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #4a2e1b;
+}
+
+.label-stat {
+  display: block;
+  margin-top: 6px;
+  color: #7a6352;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.area-tombol {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn-utama {
+  background-color: #4a2e1b;
+  color: #ffffff;
+  padding: 12px 26px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease;
+}
+
+.btn-utama:hover {
+  background-color: #321e11;
+}
+
+.btn-sekunder {
+  background-color: transparent;
+  color: #4a2e1b;
+  border: 2px solid #4a2e1b;
+  padding: 10px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+.btn-sekunder:hover {
+  background-color: #f5ebe0;
+}
+
+.kartu-kutipan {
+  background-color: #faf6f0;
+  border-left: 4px solid #8b5e3c;
+  border-radius: 8px;
+  padding: 16px 20px;
+  color: #4a2e1b;
+  margin-top: 8px;
+}
+
+.kartu-kutipan p {
+  margin: 0 0 6px 0;
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+
+.kartu-kutipan span {
+  font-size: 0.85rem;
+  color: #8b5e3c;
+  font-weight: 600;
+}
