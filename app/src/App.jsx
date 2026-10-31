@@ -17,7 +17,7 @@ export default function App() {
           <Route index element={<Beranda />} /> 
          <Route path="beranda" element={<Navigate to="/" replace />} />
           <Route path="koleksi" element={<Koleksi />} />
-          <Route path="detail/:id" element={<Detail />} />
+          <Route path="koleksi/:id" element={<Detail />} />
           <Route path="tambah" element={<Tambah />} />
           <Route path="statistik" element={<Statistik />} />
           <Route path="tentang" element={<Tentang />} />
