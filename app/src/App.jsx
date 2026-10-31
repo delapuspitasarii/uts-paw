@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import { KoleksiProvider } from './context/KoleksiProvider.jsx'
 import Layout from './components/Layout.jsx'
 import Beranda from './pages/Beranda.jsx'
@@ -14,9 +14,8 @@ export default function App() {
     <KoleksiProvider>
     <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Beranda />} />
-          
-          <Route path="beranda" element={<Beranda />} />
+          <Route index element={<Beranda />} /> 
+         <Route path="beranda" element={<Navigate to="/" replace />} />
           <Route path="koleksi" element={<Koleksi />} />
           <Route path="detail/:id" element={<Detail />} />
           <Route path="tambah" element={<Tambah />} />
