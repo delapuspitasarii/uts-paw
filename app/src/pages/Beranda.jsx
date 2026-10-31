@@ -3,15 +3,21 @@ import useKoleksi from '../hooks/useKoleksi.js'
 import './Beranda.css'
 
 export default function Beranda() { 
-  const { koleksi } = useKoleksi()
+ const { items = [], loading } = useKoleksi()
 
-  const totalBuku = koleksi ? koleksi.length : 0
-  const totalKategori = koleksi
-    ? new Set(koleksi.map((buku) => buku.kategori)).size
-    : 0
-  const bukuSelesai = koleksi
-    ? koleksi.filter((buku) => buku.status === 'Selesai' || buku.status === 'Sudah Dibaca').length
-    : 0
+  if (loading) {
+    return (
+      <section className="beranda-wrapper">
+        <p>Memuat statistik...</p>
+      </section>
+    )
+  }
+
+  const totalBuku = items.length
+
+  const totalKategori = new Set(
+    items.map((buku) => buku.kategori).filter(Boolean)
+  ).size
 
   return (
     <section className="beranda-wrapper">
@@ -33,10 +39,6 @@ export default function Beranda() {
         <div className="kartu-stat">
           <span className="angka-stat">{totalKategori}</span>
           <span className="label-stat">Kategori Terdaftar</span>
-        </div>
-        <div className="kartu-stat">
-          <span className="angka-stat">{bukuSelesai}</span>
-          <span className="label-stat">Sedang Dibaca</span>
         </div>
       </div>
 
