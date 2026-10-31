@@ -26,7 +26,7 @@ export default function Layout() {
         <Outlet />
       </main>
       <footer id="footer-utama" className="kaki">
-        Ujian Tengah Semester - Dela Puspita Sari (123140080)
+        Ujian Tengah Semester (PAW) - Dela Puspita Sari (123140080)
       </footer>
     </div>
   )
