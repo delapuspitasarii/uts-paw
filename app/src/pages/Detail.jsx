@@ -5,10 +5,14 @@ import BadgeStatus from '../components/BadgeStatus.jsx'
 export default function Detail() {
   const { id } = useParams()
   const navigate = useNavigate()
-  const { items, loading, hapus } = useKoleksi()
+  const contextData = useKoleksi() || {}
+
+  const { items = [], loading = false, hapus } = contextData
+  
   const item = items.find((i) => String(i.id) === String(id))
 
   if (loading) return <p>Memuat data...</p>
+
   if (!item) {
     return (
       <section>
@@ -18,30 +22,46 @@ export default function Detail() {
     )
   }
 
-  const konfirmasiHapus = () => {
-    if (window.confirm(`Hapus "${item.judul}"?`)) {
+  const handleHapus = () => {
+    if (typeof hapus === 'function') {
       hapus(item.id)
-      navigate('/koleksi')
     }
+    navigate('/koleksi')
   }
+
+  const statusVal = item.statusBaca || item.status || 'Belum Dibaca'
+  const penerbitVal = item.penerbit || '-'
+  const halamanVal = item.jumlahHalaman ?? item.halaman ?? '-'
+  const penulisVal = item.penulis || item.pengarang || '-'
+  const tahunVal = item.tahunTerbit || item.tahun || '-'
 
   return (
     <section>
       <h1>{item.judul}</h1>
-      <dl>
+    <dl>
         <dt>Kategori</dt>
         <dd>{item.kategori}</dd>
+
         <dt>Penulis</dt>
-        <dd>{item.penulis}</dd>
+        <dd>{penulisVal}</dd>
+
+        <dt>Penerbit</dt>
+        <dd>{penerbitVal}</dd>
+
         <dt>Tahun Terbit</dt>
-        <dd>{item.tahunTerbit}</dd>
-        <dt>Status</dt>
+        <dd>{tahunVal}</dd>
+
+        <dt>Jumlah Halaman</dt>
+        <dd>{halamanVal}</dd>
+
+        <dt>Status Baca</dt>
         <dd>
-          <BadgeStatus statusVal={item.status} />
+          <BadgeStatus statusVal={statusVal} />
         </dd>
       </dl>
+
       <div className="aksi">
-        <button type="button" onClick={konfirmasiHapus}>
+        <button type="button" onClick={handleHapus}>
           Hapus
         </button>
         <Link to="/koleksi">Kembali</Link>
