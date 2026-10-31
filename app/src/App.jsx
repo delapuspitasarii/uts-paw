@@ -12,14 +12,16 @@ import TidakDitemukan from './pages/TidakDitemukan.jsx'
 export default function App() {
   return (
     <KoleksiProvider>
-      <Routes>
-        <Route element={<Layout />}>
-          <Route path="/" element={<Beranda />} />
-          <Route path="/koleksi" element={<Koleksi />} />
-          <Route path="/koleksi/:id" element={<Detail />} />
-          <Route path="/tambah" element={<Tambah />} />
-          <Route path="/statistik" element={<Statistik />} />
-          <Route path="/tentang" element={<Tentang />} />
+    <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Beranda />} />
+          
+          <Route path="beranda" element={<Beranda />} />
+          <Route path="koleksi" element={<Koleksi />} />
+          <Route path="detail/:id" element={<Detail />} />
+          <Route path="tambah" element={<Tambah />} />
+          <Route path="statistik" element={<Statistik />} />
+          <Route path="tentang" element={<Tentang />} />
           <Route path="*" element={<TidakDitemukan />} />
         </Route>
       </Routes>
