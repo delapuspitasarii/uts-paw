@@ -1,42 +1,94 @@
+.statistik-wrapper {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.statistik-judul {
+  color: #4a2e1b;
+  font-size: 1.8rem;
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.tabel-card {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e8dec8;
+  box-shadow: 0 4px 14px rgba(61, 35, 20, 0.05);
+  overflow: hidden;
+}
+
 .tabel-gulir {
+  width: 100%;
   overflow-x: auto;
 }
 
 .tabel-data {
   width: 100%;
-  max-width: 480px;
   border-collapse: collapse;
+  font-size: 0.95rem;
 }
 
 .tabel-data th,
 .tabel-data td {
-  padding: 0.5rem 0.75rem;
-  border-bottom: 1px solid #dcdcdc;
+ padding: 14px 20px;
   text-align: left;
 }
 
 .tabel-data thead th {
-  background: #f1f1f1;
+  background-color: #f5ebe0;
+  color: #4a2e1b;
+  font-weight: 700;
+  border-bottom: 2px solid #e3d5ca;
+}
+
+.tabel-data tbody tr {
+  border-bottom: 1px solid #f2e9e1;
+  transition: background-color 0.15s ease;
 }
 
 .tabel-data tbody tr:nth-child(even) {
-  background: #fafafa;
+  background-color: #fdfbf7;
 }
 
+.tabel-data tbody tr:hover {
+  background-color: #f7eedf;
+}
 .tabel-data td:last-child,
 .tabel-data th:last-child {
   text-align: right;
+  font-weight: 600;
 }
 
 .tabel-data tfoot th,
 .tabel-data tfoot td {
-  border-top: 2px solid #1f2328;
-  font-weight: 600;
+ background-color: #ebd9c8;
+  color: #3d2314;
+  font-weight: 700;
+  font-size: 1rem;
+  border-top: 2px solid #d6c2b1;
 }
 
 @media (max-width: 480px) {
+  .statistik-wrapper {
+    padding: 8px 4px;
+  }
+
+  .statistik-judul {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+  }
+
   .tabel-data th,
   .tabel-data td {
-    padding: 0.4rem 0.5rem;
+    padding: 10px 14px;
+    font-size: 0.88rem;
   }
 }
