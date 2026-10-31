@@ -6,8 +6,8 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
- <HashRouter basename="/uts-paw">
+    <HashRouter>
       <App />
     </HashRouter>
-  </React.StrictMode>
+  </React.StrictMode>, 
 )
