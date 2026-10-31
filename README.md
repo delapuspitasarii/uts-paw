@@ -66,13 +66,13 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 # Aplikasi Rak Buku Akuu (Delaaa)
 Aplikasi berbasis web *Single Page Application* (SPA) untuk membantu pengelolaan, pencatatan, dan pemantauan koleksi buku pribadi berdasarkan kategori, penulis, tahun terbit, serta status pembacaan.
 
-Nama: Dela Puspita Sari
-NIM: 123140080
-Kelas:RB
-Mata Kuliah: Pengembangan Aplikasi Web
-Tema: Rak Buku Pribadi
-Deployment: https://delapuspitasarii.github.io/uts-paw/
-Repository GitHub: https://github.com/delapuspitasarii/uts-paw
+- **Nama:** Dela Puspita Sari
+- **NIM:** 123140080
+- **Kelas:** RB
+- **Mata Kuliah:** Pengembangan Aplikasi Web
+- **Tema:** Rak Buku Pribadi
+- **Deployment:** https://delapuspitasarii.github.io/uts-paw/
+- **Repository GitHub:** https://github.com/delapuspitasarii/uts-paw
 
 ## Tangkapan Layar
 
